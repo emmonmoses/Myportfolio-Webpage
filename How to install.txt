@@ -1,0 +1,11 @@
+Requirements:
+1. A server e.g wamp, lamp or xamp
+2.A database
+
+Setup procedure:
+
+1.Create database called mosesprofile
+2.Import the sql file in the Project folder(My Profile)
+3.Paste the project folder to your root server directory e.g www for WAMP Server or htdocs for XAMP Server
+4.Run your server and navigate to where you paste the project folder.
+               <-----ENJOY THE VERSION 1.0 OF MY WEBSITE---->

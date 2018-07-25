@@ -1,0 +1,237 @@
+
+h2.title:after{
+    content: " ";
+    position: absolute;
+    border: 1px solid  #cccccc;
+    bottom:8px;
+    left: 0%;
+    width: 100%;
+    height: 0;
+    z-index: -2;
+}
+h2.title:before{
+    content: " ";
+    position: absolute;
+    background-color: #cccccc;
+    bottom: -6px;
+    width: 250px;
+    height: 30px;
+    z-index: -1;
+    left: 47%;
+    right: 47%;
+    margin-left: -110px;
+}
+h2.title {
+    color:#000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    margin: 0 5px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+    z-index:0;
+}
+#Item{
+    margin-top: 3%;
+}
+#footer{
+    border-top: solid thin  #cccccc;
+    margin-top: 3%;
+}
+#contacts{
+    padding-top: 3%;
+    font-size: larger;
+}
+.message{
+    color: #262626;
+}
+.intro {
+    width:100%;
+    position:relative;
+    background: url(../Images/bg1.jpg) no-repeat top center;
+}
+
+#intro.intro {
+    padding:20% 0 21% 0;
+}
+
+.intro .slogan {
+    text-align: center;
+
+}
+
+.intro .page-scroll {
+    text-align: center;
+}
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+.intro .slogan h2 {
+    color: #FFF;
+    text-shadow: none;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    border-color: #000;
+    border-style: none;
+    text-shadow: -1px 0 1px #000;
+}
+#preloader {
+    background: #ffffff;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+@keyframes boxSpin{
+    0%{
+        transform: translate(-10px, 0px);
+    }
+    25%{
+        transform: translate(10px, 10px);
+    }
+    50%{
+        transform: translate(10px, -10px);
+    }
+    75%{
+        transform: translate(-10px, -10px);
+    }
+    100%{
+        transform: translate(-10px, 10px);
+    }
+}
+
+
+@keyframes shadowSpin{
+    0%{
+        box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
+    }
+    25%{
+        box-shadow: 10px 10px #39CCCC, -10px -10px #FFDC00;
+    }
+    50%{
+        box-shadow: -10px 10px #39CCCC, 10px -10px #FFDC00;
+    }
+    75%{
+        box-shadow: -10px -10px #39CCCC, 10px 10px #FFDC00;
+    }
+    100%{
+        box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
+    }
+}
+#load {
+    z-index: 9999;
+    background-color: #FF4136;
+    opacity: 0.75;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    margin: -5px auto 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 0px;
+    border: 5px solid #FF4136;
+    box-shadow: 10px 0px #39CCCC, 10px 0px #01FF70;
+    animation: shadowSpin 1s ease-in-out infinite;
+}
+
+#loaderInner {
+    background:#ffffff url(../img/spinner.gif) center center no-repeat;
+    height: 60px;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+    position: absolute;
+    top: 50%;
+    width: 60px;
+}
+@media(min-width:767px) {
+
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #39CCCC;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .brand-heading {
+        font-size: 100px;
+    }
+
+
+    .intro-text {
+        font-size: 25px;
+    }
+
+
+}
+@media (max-width:768px) {
+
+    .team.boxed-grey {
+        margin-bottom: 30px;
+    }
+
+    .boxed-grey {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+@media (max-width:480px) {
+
+    .navbar-custom .nav.navbar-nav {
+        background-color: rgba(255,255,255,.4);
+    }
+
+    .navbar.navbar-custom.navbar-fixed-top {
+        margin-bottom: 30px;
+    }
+
+    .tp-banner-container {
+        padding-top:40px;
+    }
+
+    .page-scroll a.btn-circle {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        padding: 7px 0;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+
+}
