@@ -13,6 +13,6 @@ It also includes the download functionality for retrieving my resume
 # Steps to setting-up this project
 
 1.	Create a database called "mosesprofile" in wamp/xamp/lamp server- whichever you are familiar with
-2.	Import the "mosesprofile.sql"(from the sql db folder) to the database you just created.
+2.	Import the "mosesprofile.sql"(from the project folder) to the database you just created.
 3.	Copy and Paste the extracted project folder inside htdocs/www directory of your the server you are using
 4.	Run your project from the localHost
