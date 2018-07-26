@@ -1,5 +1,5 @@
 # PHP-My-Portfolio-Website
-This is a My Portfolio web-page created using php,bootstrap 3, css3 and Html. 
+This is a My Portfolio web-page created using php,bootstrap 3, javascript, css3 and Html. 
 It also includes the download functionality for retrieving my resume
 
 # This project was generated using the following:
